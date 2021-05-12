@@ -3,7 +3,7 @@ from flask import Flask, request
 from flask import jsonify
 
 app = Flask(__name__)
-app.config[""] = "sqlite3:///C:/Users\KAVU/eclipse-workspace/flask_practice/python_practice/bank.db"
+app.config[""] = "sqlite3:///C:/Users\KAVU/eclipse-workspace/flask_application/flask_practice/bank.db"
 
 
 conn = sqlite3.connect('bank.db')
